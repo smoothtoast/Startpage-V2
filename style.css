@@ -41,34 +41,62 @@
 	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 
+.grid {
+	display: grid;
+	grid-template-columns: 450px 450px;
+	grid-template-rows: 267px 266px 267px;
+	justify-items: center;
+	align-items: center;
+	grid-template-areas: 
+    "no1 no2"
+    "no3 no4"
+    "no5 no6";
+}
+
+.grid a {
+	color: #2C2C2C;
+}
+
+.grid .item-no1 img:hover {
+display: none;
+}
+
+.item-no1 {
+grid-area: no1;
+object-fit: fill;
+object-position: center; 
+}
+
+.item-no2 {
+  grid-area: no2;
+}
+
+.item-no3 {
+  grid-area: no3;
+}
+
+.item-no4 {
+  grid-area: no4;
+}
+
+.item-no5 {
+	grid-area: no5;
+}
+
+.item-no6 {
+	grid-area: no6;
+}
+
+a {
+    color: white;
+	text-decoration: none;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+}
+
+
 body {
     background-color: #1B1B1B;
 }
-
-table{
-	border: none;
-	width: 100%;
-	height: 100%;
-	border-spacing: 0px;
-	color: white;
-	text-align: center;
-}
-
-td {
-	width: 450px;
-	height: 267px;
-}
-
-td .fave {
-	display: none;
-}
-
-td:hover .fave {
-	display:block;
-
-	
-}
-
 
 ul{vertical-align: top;
 	vertical-align: text-top;
