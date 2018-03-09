@@ -56,7 +56,7 @@
 .overlap{
     top: -250px;
 	position: relative;
-	left: -180px;
+	left: 180px;
 }
 
 .blur1 {
@@ -126,46 +126,40 @@
 	grid-area: no1;
 	object-fit: fill;
 	object-position: center; 
-	text-align: center;
 }
 
 .item-no2 {
 	grid-area: no2;
 	object-fit: fill;
 	object-position: center; 
-	text-align: center;
 }
 
 .item-no3 {
 	grid-area: no3;
 	object-fit: fill;
 	object-position: center; 
-	text-align: center;
 }
 
 .item-no4 {
 	grid-area: no4;
 	object-fit: fill;
 	object-position: center; 
-	text-align: center;
 }
 
 .item-no5 {
 	grid-area: no5;
 	object-fit: fill;
 	object-position: center; 
-	text-align: center;
 }
 
 .item-no6  {
 	grid-area: no6;
 	object-fit: fill;
 	object-position: center; 
-	text-align: center;
 }
 
 a {
-    color: #1B1B1B;
+    color: transparent;
 	text-decoration: none;
 	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
 }
