@@ -48,121 +48,124 @@
 	justify-items: center;
 	align-items: center;
 	grid-template-areas: 
-		"no1 no2"
-		"no3 no4"
-		"no5 no6";
+	"no1 no2"
+	"no3 no4"
+	"no5 no6";
 }
 
-.grid a {
-	color: #2C2C2C;
+.overlap{
+    top: -250px;
+	position: relative;
+	left: -180px;
 }
 
-.item-no1:hover {
-	filter: blur(5px)
+.blur1 {
+    margin: 0 0 0 0;
+    width: 450px ;
+    height: 267px ;
+    background: url("https://images5.alphacoders.com/870/thumb-1920-870874.jpg");
+	background-size: 450px 267px;
+    display: grid;
+	position: relative;
+	bottom: -3.7%;
 }
-.item-no2:hover {
-	filter: blur(5px)
+
+.item-no1:hover .blur1{
+  filter: blur(5px);
 }
-.item-no3:hover {
-	filter: blur(5px)
+
+.item-no2:hover .blur1{
+  filter: blur(5px);
 }
-.item-no4:hover {
-	filter: blur(5px)
+
+.item-no3:hover .blur1{
+  filter: blur(5px);
 }
-.item-no5:hover {
-	filter: blur(5px)
+
+.item-no4:hover .blur1{
+  filter: blur(5px);
 }
-.item-no6:hover {
-	filter: blur(5px)
+
+.item-no5:hover .blur1{
+  filter: blur(5px);
+}
+
+.item-no5:hover .blur1{
+  filter: blur(5px);
+}
+
+.item-no6:hover .blur1{
+  filter: blur(5px);
+}
+
+.item-no1:hover a{
+	color:white;
+}
+
+.item-no2:hover a{
+	color:white;
+}
+
+.item-no3:hover a{
+	color:white;
+}
+
+.item-no4:hover a{
+	color:white;
+}
+
+.item-no5:hover a{
+	color:white;
+}
+
+.item-no6:hover a{
+	color:white;
 }
 
 .item-no1 {
 	grid-area: no1;
 	object-fit: fill;
 	object-position: center; 
-	background: url("https://images5.alphacoders.com/870/thumb-1920-870874.jpg");
-	background-repeat: no-repeat;
-	background-size: 450px 267px;
 	text-align: center;
-	text-vertical-align: center;
-	line-height: 250px;
-	height: 100%;
-	width: 100%;
-
 }
 
 .item-no2 {
 	grid-area: no2;
 	object-fit: fill;
 	object-position: center; 
-	background: url("https://images5.alphacoders.com/870/thumb-1920-870874.jpg");
-	background-repeat: no-repeat;
-	background-size: 450px 267px;
 	text-align: center;
-	text-vertical-align: center;
-	line-height: 250px;
-	height: 100%;
-	width: 100%;
 }
 
 .item-no3 {
 	grid-area: no3;
 	object-fit: fill;
 	object-position: center; 
-	background: url("https://images5.alphacoders.com/870/thumb-1920-870874.jpg");
-	background-repeat: no-repeat;
-	background-size: 450px 266px;
 	text-align: center;
-	text-vertical-align: center;
-	line-height: 250px;
-	height: 100%;
-	width: 100%;
 }
 
 .item-no4 {
 	grid-area: no4;
 	object-fit: fill;
 	object-position: center; 
-	background: url("https://images5.alphacoders.com/870/thumb-1920-870874.jpg");
-	background-repeat: no-repeat;
-	background-size: 450px 266px;
 	text-align: center;
-	text-vertical-align: center;
-	line-height: 250px;
-	height: 100%;
-	width: 100%;
 }
 
 .item-no5 {
 	grid-area: no5;
 	object-fit: fill;
 	object-position: center; 
-	background: url("https://images5.alphacoders.com/870/thumb-1920-870874.jpg");
-	background-repeat: no-repeat;
-	background-size: 450px 267px;
 	text-align: center;
-	text-vertical-align: center;
-	line-height: 250px;
-	height: 100%;
-	width: 100%;
 }
 
-.item-no6 {
+.item-no6  {
 	grid-area: no6;
 	object-fit: fill;
 	object-position: center; 
-	background: url("https://images5.alphacoders.com/870/thumb-1920-870874.jpg");
-	background-repeat: no-repeat;
-	background-size: 450px 267px;
 	text-align: center;
-	text-vertical-align: center;
-	line-height: 250px;
-	height: 100%;
-	width: 100%;
 }
 
 a {
-    color: white;
+    color: #1B1B1B;
 	text-decoration: none;
 	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
 }
