@@ -44,13 +44,11 @@
 .grid {
 	display: grid;
 	grid-template-columns: 180px 180px 180px 180px 180px; /*180*/
-	grid-template-rows: 267px 266px 267px;
+	grid-template-rows: 800px;
 	justify-items: center;
 	align-items: center;
 	grid-template-areas: 
-	"no1 no2 no7 no10 no13"
-	"no3 no4 no8 no11 no14"
-	"no5 no6 no9 no12 no15";
+	"no1 no2 no3 no4 no5";
 }
 
 .item-no1 {
@@ -71,44 +69,6 @@
 
 .item-no5 {
 	grid-area: no5;
-}
-
-.item-no6  {
-	grid-area: no6;
-}
-
-.item-no7  {
-	grid-area: no7;
-}
-
-.item-no8  {
-	grid-area: no8;
-}
-
-.item-no9  {
-	grid-area: no9;
-}
-.item-no10  {
-	grid-area: no10;
-}
-.item-no11  {
-	grid-area: no11;
-}
-
-.item-no12  {
-	grid-area: no12;
-}
-
-.item-no13  {
-	grid-area: no13;
-}
-
-.item-no14  {
-	grid-area: no14;
-}
-
-.item-no15  {
-	grid-area: no15;
 }
 
 a {
