@@ -1,2 +1,2 @@
 # Startpage-v2
-A simple startpage that uses a random image from /images/. 
+The goal is to eventually have this linked from the main startpage as an expanded view.
